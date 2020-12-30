@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(203, 213, 228);
+}
+
+.container {
+  background: white;
+  height: 52rem;
+  border-radius: 30px;
+  padding: 3rem;
+}
+
+.banner {
+  background-image: url("/images/banner1.jpg");
+  height: 350px;
+  border-radius: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ciudad {
+  margin-left: 50px;
+  margin-top: 50px;
+  color: white;
+}
+
+.time-banner {
+  height: 60px;
+  width: 70px;
+  margin-left: 70px;
+}
+
+.forecast1 {
+  font-size: 2.5rem;
+}
+
+.forecast2 {
+  font-size: 1.5rem;
+  color: gray;
+  margin-top: 1rem;
+}
+
+.container2 {
+  height: 280px;
+}
+.card-general {
+  border-radius: 25px;
+  height: 80px;
+  padding: 0;
+  border: 1px solid rgb(190, 190, 190);
+  margin-bottom: 1.26rem;
+}
+.card3days-img {
+  width: 30%;
+  display: flex;
+}
+.card3days-img img {
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  margin: 0 auto;
+}
+.card3days-pais {
+  color: gray;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.card3days-pais h5 {
+  font-size: 1.1rem;
+  color: b;
+  padding: 0;
+}
+.card3days-pais h6 {
+  font-size: 0.9rem;
+  color: gray;
+  padding: 0;
+}
+.card3days-temp {
+    color: white;
+    border-radius: 25px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background: purple;
+  }
+.card3days-temp2 {
+  color: white;
+  background: rgb(203, 213, 228);
+  border-radius: 25px;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.card3days-temp h4 {
+    color: white;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    justify-items: center;
+}
+.card3days-temp2 h4 {
+    color: black;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    justify-items: center;
+}
+
+.container3 {
+  height: 280px;
+  background-image: url(/images/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+
+.container3 h5 {
+  color: white;
+}
+
+
+
+.container4 {
+    width: 270px;
+    height: 280px;
+  }
+
+  .flotante {
+    position: absolute;
+    margin-top: -150px;
+    right: 150px;
+}
+
+.card-general2 {
+    border-radius: 25px;
+    height: 120px;
+    padding: 0;
+    border: 1px solid rgb(190, 190, 190);
+    margin-bottom: 1.26rem;
+  }
+
+.card-general3 {
+    border-radius: 25px;
+    height: 150px;
+    padding: 0;
+    border: 1px solid rgb(190, 190, 190);
+    margin-bottom: 1.26rem;
+  }
