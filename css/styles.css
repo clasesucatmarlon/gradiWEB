@@ -155,12 +155,15 @@ body {
   height: 50px;
   width: 50px;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 20px;
+  position: absolute;
 }
 .container4taCol-temp {
   color: black;
   margin: 0 auto;
   font-size: 1.1rem;
+  margin-left: 20px;
+  width: 100%;
   justify-items: center;
 }
 .container4taCol h6 {

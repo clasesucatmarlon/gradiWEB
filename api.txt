@@ -1,1 +1,1 @@
-https://api.openweathermap.org/data/2.5/weather?id=1699896&appid=3283ca388af19294b1044e1f4cb98cf4
+https://api.openweathermap.org/data/2.5/weather?id=1699896&appid=
