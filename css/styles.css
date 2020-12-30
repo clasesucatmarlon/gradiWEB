@@ -16,7 +16,7 @@ body {
 }
 
 .banner {
-  background-image: url("/images/banner1.jpg");
+  background-image: url("/images/banner3.jpg");
   height: 350px;
   border-radius: 30px;
   background-size: cover;
@@ -82,14 +82,14 @@ body {
   padding: 0;
 }
 .card3days-temp {
-    color: white;
-    border-radius: 25px;
-    height: 100%;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    background: purple;
-  }
+  color: white;
+  border-radius: 25px;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  background: purple;
+}
 .card3days-temp2 {
   color: white;
   background: rgb(203, 213, 228);
@@ -100,16 +100,16 @@ body {
   align-items: center;
 }
 .card3days-temp h4 {
-    color: white;
-    margin: 0 auto;
-    font-size: 1.3rem;
-    justify-items: center;
+  color: white;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  justify-items: center;
 }
 .card3days-temp2 h4 {
-    color: black;
-    margin: 0 auto;
-    font-size: 1.3rem;
-    justify-items: center;
+  color: black;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  justify-items: center;
 }
 
 .container3 {
@@ -124,31 +124,48 @@ body {
   color: white;
 }
 
-
-
 .container4 {
-    width: 270px;
-    height: 280px;
-  }
+  width: 270px;
+  height: 280px;
+}
 
-  .flotante {
-    position: absolute;
-    margin-top: -150px;
-    right: 150px;
+.flotante {
+  position: absolute;
+  margin-top: -150px;
+  right: 150px;
 }
 
 .card-general2 {
-    border-radius: 25px;
-    height: 120px;
-    padding: 0;
-    border: 1px solid rgb(190, 190, 190);
-    margin-bottom: 1.26rem;
-  }
+  border-radius: 25px;
+  height: 120px;
+  padding: 0;
+  border: 1px solid rgb(190, 190, 190);
+  margin-bottom: 1.26rem;
+}
 
 .card-general3 {
-    border-radius: 25px;
-    height: 150px;
-    padding: 0;
-    border: 1px solid rgb(190, 190, 190);
-    margin-bottom: 1.26rem;
-  }
+  border-radius: 25px;
+  height: 150px;
+  padding: 0;
+  border: 1px solid rgb(190, 190, 190);
+  margin-bottom: 1.26rem;
+}
+
+.container4taCol-img {
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  margin-left: 50px;
+}
+.container4taCol-temp {
+  color: black;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  justify-items: center;
+}
+.container4taCol h6 {
+  color: grey;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
