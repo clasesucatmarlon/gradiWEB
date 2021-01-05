@@ -13,31 +13,60 @@
     <!-- Styles owner -->
     <link rel="stylesheet" href="./css/styles.css">
 
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <script src="./js/api.js"></script>
+
 </head>
 
 <body>
-
-
     <div class="container mt-5">
+        <div class="row banner">
+            <div class="col-1 d-flex flex-column justify-content-center">
+
+                <div class="banner2-1 d-flex flex-column">
+                    <img id="mostrarImgTempBanner" src="#" alt="">
+                    <p id="mostrarEdoTiempo"></p>
+                </div>
 
 
-        <div class="row">
-            <div class="col-12 banner">
-                <h3 class="ciudad">Bogotá</h3>
+                <div class="banner2-2 d-flex flex-row">
+                    <h3 id="mostrarTempBanner"></h3>
+                    <h4 class="celsius">°C</h4>
+                </div>
+
+            </div>
+            <div class="col-11 banner2">
+                <h3 class="ciudad"><i class="bi bi-geo-alt-fill"></i> Bogotá</h3>
                 <img class="time-banner" src="./images/nubleado.png" alt="">
-                <p><i class="fas fa-water-lower    "></i></p>
             </div>
         </div>
 
-        <div class="row mt-4">
+
+
+        <div class="row my-4">
             <div class="col-3">
-                <h4><span class="font-weight-bold forecast1">3 days</span> Forecast</h4>
+                <h6><span class="font-weight-bold forecast1">3 days</span> Forecast</h6>
             </div>
+
             <div class="col-3">
-                <h4><span class="font-weight-bold forecast1">Place to</span> Visit</h4>
+                <h6><span class="font-weight-bold forecast1">Place to</span> Visit</h6>
             </div>
-            <div class="col-3">
+
+            <div class="col-3 d-flex">
                 <h4 class="font-weight-bold forecast2">+ Top Reviews</h4>
+                <div class="div">
+                    <img class="imgRev" src="./images/foto1.png" alt="">
+                </div>
+                <div class="div">
+                    <img class="imgRev" src="./images/foto2.jpg" alt="">
+                </div>
+                <div class="div">
+                    <img class="imgRev" src="./images/foto3.jpg" alt="">
+                </div>
+                <div class="imgRev">
+                    <p>0+</p>
+                </div>
             </div>
         </div>
 
@@ -69,7 +98,8 @@
                                 <h6>Clear</h6>
                             </div>
                             <div class="card3days-temp2">
-                                <h4>34°/24°</h4>
+
+                                <h4 id="mostrarTempMax"></h4>
                             </div>
                         </div>
 
@@ -95,21 +125,55 @@
                 <div class="container3">
                     <div class="row">
                         <div class="col-12 p-5">
-                            <h5>Arab Street</h5>
-                            <h5>Singapore</h5>
+                            <div class="d-flex icono">
+                                <h5><i class="bi bi-geo-alt-fill"></i></h5>
+                                <h5 class="line1"> Arab Street</h5>
+                            </div>
+                            <div class="d-flex">
+                                <h5 class="line2">Singapore</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+
+
             <div class="col-3">
-                <div class="container3">
-                    <div class="row">
-                        <div class="col-12 p-5">
-                            <h5>Arab Street</h5>
-                            <h5>Singapore</h5>
+                <div class="container3-1">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 p-3 conta3-bg1">
+                            <div class="d-flex icono">
+                                <h5><i class="bi bi-geo-alt-fill"></i></h5>
+                                <h5 class="line1"> Arab Street</h5>
+                            </div>
+                            <div class="d-flex">
+                                <h5 class="line2">Singapore</h5>
+                            </div>
                         </div>
+
+                        <div class="col-12 conta3-bg2 d-flex justify-content-between">
+                            <div class="">
+                                <div class="d-flex icono">
+                                    <h5><i class="bi bi-geo-alt-fill"></i></h5>
+                                    <h5 class="line1"> Arab Street</h5>
+                                </div>
+                                <div class="d-flex">
+                                    <h5 class="line2">Singapore</h5>
+                                </div>
+                            </div>
+                            <div class="divRight">
+                                +
+                            </div>
+                        </div>
+
+
+
                     </div>
+
+
+
+
                 </div>
             </div>
 
@@ -140,17 +204,6 @@
                         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
                         <div class="col-12 card card-general2 d-flex flex-row align-items-center">
                             <div class=" ">
                             </div>
@@ -162,12 +215,6 @@
                                 <h4>32°/23°</h4>
                             </div>
                         </div>
-
-
-
-
-
-
 
 
                         <div class="col-12 card card-general3 d-flex flex-row align-items-center">
@@ -186,17 +233,7 @@
 
                 </div>
             </div>
-
-
-
         </div>
-
-
-
-
-
-
-
     </div>
 
 
@@ -209,6 +246,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
+
+    <script>
+        window.onload = lanzadera();
+    </script>
+
 </body>
 
 </html>
