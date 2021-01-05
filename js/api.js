@@ -11,7 +11,7 @@ function lanzadera() {
     let idCityBogota = '3688685';
     let idCityAntartica = '6255152';
 
-    obtenerDatosTempBanner(apiKey, idCityAntartica);
+    obtenerDatosTempBanner(apiKey, idCityBogota);
 }
 
 

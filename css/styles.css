@@ -219,7 +219,7 @@ body {
 
 .container3-1 .conta3-bg2 {
   margin-top: 1rem;
-  background-image: url(/images/arte_ciencia.jpg);
+  background-image: url(/images/arte_ciencia2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 164px;
@@ -252,24 +252,81 @@ body {
 
 
 
-.container4 {
-  width: 270px;
-  height: 280px;
-}
-
 .flotante {
   position: absolute;
   margin-top: -150px;
   right: 150px;
 }
 
+.container4 {
+  width: 270px;
+  height: 280px;
+}
+
+
 .card-general2 {
   border-radius: 25px;
   height: 120px;
   padding: 0;
-  border: 1px solid rgb(190, 190, 190);
+  border: 1px solid rgb(235, 233, 233);
   margin-bottom: 1.26rem;
+  /* background: violet; */
 }
+
+.container4-1  {
+  width: 90%;
+  margin-left: 14px;
+  margin-top: 0;
+}
+
+.row1Container4-1 {
+  height: 75px;
+}
+
+.row1Container4-1-img {
+  background: rgb(152, 165, 185);
+  border-radius: 25%;
+  margin-left: -2px;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container4taColRow1-img {
+  height: 45px;
+  width: 45px;
+}
+
+.celcius2 {
+  color: rgb(177, 144, 177);
+  margin-top: -4px;
+  align-items: flex-start;
+  border-right: black(121, 35, 71);
+}
+
+
+
+.col3-1 {
+  font-weight: 300;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.col3-2 {
+  font-weight: 100;
+  font-size: .8rem;
+  font-weight: normal;
+}
+
+
+.row1Container4-2 {
+  font-size: .7rem;
+  color: rgb(190, 190, 190);
+
+}
+
 
 .card-general3 {
   border-radius: 25px;
@@ -278,25 +335,3 @@ body {
   border: 1px solid rgb(190, 190, 190);
   margin-bottom: 1.26rem;
 }
-
-.container4taCol-img {
-  height: 50px;
-  width: 50px;
-  align-items: center;
-  margin-left: 20px;
-  position: absolute;
-}
-.container4taCol-temp {
-  color: black;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  margin-left: 20px;
-  width: 100%;
-  justify-items: center;
-}
-.container4taCol h6 {
-  color: grey;
-  margin: 0 auto;
-  font-size: 1.1rem;
-}
-
