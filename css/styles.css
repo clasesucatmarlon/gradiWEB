@@ -15,6 +15,9 @@ body {
   padding: 3rem;
 }
 
+/* *********************************************** */
+/* BANNER */
+/* *********************************************** */
 .banner {
   background-image: url("/images/banner3.jpg");
   height: 350px;
@@ -27,7 +30,7 @@ body {
   border-radius: 5px 20px 25px 8px;
   height: 6rem;
   margin-left: -50px;
-  background:rgb(37, 23, 104);
+  background: rgb(37, 23, 104);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,14 +39,12 @@ body {
 }
 
 .banner2-1 img {
-  /* margin-top: .9rem; */
   width: 85px;
   height: 85px;
 }
 .banner2-1 p {
   margin-top: -20px;
-  font-size: .7rem;
-  
+  font-size: 0.7rem;
 }
 
 .banner2-2 {
@@ -53,7 +54,7 @@ body {
   height: 6rem;
   height: 8rem;
   margin-left: -50px;
-  background:rgb(152, 104, 180);
+  background: rgb(152, 104, 180);
   margin-top: -55px;
   display: flex;
   justify-content: center;
@@ -62,11 +63,11 @@ body {
 .banner2-2 h3 {
   margin-top: 4.4rem;
 }
+
 .banner2-2 h4 {
   margin-top: 4.7rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-
 
 .ciudad {
   margin-left: 0px;
@@ -80,6 +81,9 @@ body {
   /* margin-left: 70px; */
 }
 
+/* *********************************************** */
+/* FORECAST */
+/* *********************************************** */
 .forecast1 {
   font-size: 1.5rem;
 }
@@ -87,13 +91,13 @@ body {
 .forecast2 {
   font-size: 1rem;
   color: gray;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 }
 
 .imgRev {
   width: 25px;
   height: 25px;
-  margin-top: .8em;
+  margin-top: 0.8em;
   border-radius: 5px;
   margin-left: 3px;
   background: rgb(152, 104, 180);
@@ -128,7 +132,7 @@ body {
   flex-direction: column;
 }
 .card3days-pais h5 {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: b;
   padding: 0;
   font-weight: bolder;
@@ -157,12 +161,14 @@ body {
   display: flex;
   align-items: center;
 }
+
 .card3days-temp h4 {
   color: white;
   margin: 0 auto;
   font-size: 1.3rem;
   justify-items: center;
 }
+
 .card3days-temp2 h4 {
   color: black;
   margin: 0 auto;
@@ -170,6 +176,9 @@ body {
   justify-items: center;
 }
 
+/* *********************************************** */
+/* PLACE TO VISIT */
+/* *********************************************** */
 .container3 {
   height: 280px;
   background-image: url(/images/banner2.jpg);
@@ -180,8 +189,8 @@ body {
 
 .container3 .icono {
   color: white;
-  
 }
+
 .container3 .line1 {
   color: white;
   font-size: 1rem;
@@ -195,6 +204,9 @@ body {
   margin-left: 2.3rem;
 }
 
+/* *********************************************** */
+/* TOP REVIEWS */
+/* *********************************************** */
 .container3-1 .conta3-bg1 {
   background-image: url(/images/arte_ciencia.jpg);
   background-repeat: no-repeat;
@@ -205,8 +217,8 @@ body {
 
 .container3-1 .icono {
   color: white;
-  
 }
+
 .container3-1 .line1 {
   color: white;
   font-size: 1rem;
@@ -230,7 +242,7 @@ body {
   border-radius: 25px 40px 40px 25px;
 }
 
-.container3-1 .conta3-bg2 .divRight{
+.container3-1 .conta3-bg2 .divRight {
   margin-top: 0rem;
   padding: 0;
   height: 164px;
@@ -244,13 +256,6 @@ body {
   margin-right: -12px;
   font-size: 1.7rem;
 }
-
-
-
-
-
-
-
 
 /* *********************************************** */
 /* CUARTA COLUMNA */
@@ -266,7 +271,6 @@ body {
   height: 280px;
 }
 
-
 .card-general2 {
   border-radius: 25px;
   height: 120px;
@@ -277,7 +281,7 @@ body {
   box-shadow: 6px 6px 9px rgb(211, 207, 207);
 }
 
-.container4-1  {
+.container4-1 {
   width: 90%;
   margin-left: 14px;
   margin-top: 0;
@@ -297,7 +301,6 @@ body {
   justify-content: center;
 }
 
-
 .container4taColRow1-img {
   height: 45px;
   width: 45px;
@@ -310,8 +313,6 @@ body {
   border-right: black(121, 35, 71);
 }
 
-
-
 .col3-1 {
   font-weight: 300;
   font-weight: bolder;
@@ -320,17 +321,14 @@ body {
 
 .col3-2 {
   font-weight: 100;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: normal;
 }
 
-
 .row1Container4-2 {
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: rgb(190, 190, 190);
-
 }
-
 
 .card-general5 {
   border-radius: 25px;
@@ -345,7 +343,7 @@ body {
   border-radius: 15px;
   background: rgb(232, 217, 238);
   padding: 8px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
