@@ -252,13 +252,13 @@ body {
 
 
 
-
-
-
+/* *********************************************** */
+/* CUARTA COLUMNA */
+/* *********************************************** */
 .flotante {
   position: absolute;
   margin-top: -150px;
-  right: 150px;
+  right: 130px;
 }
 
 .container4 {
