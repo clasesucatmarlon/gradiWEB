@@ -36,11 +36,12 @@ body {
 }
 
 .banner2-1 img {
-  margin-top: .7rem;
-  width: 35px;
-  height: 35px;
+  /* margin-top: .9rem; */
+  width: 85px;
+  height: 85px;
 }
 .banner2-1 p {
+  margin-top: -20px;
   font-size: .7rem;
   
 }
@@ -115,8 +116,8 @@ body {
   display: flex;
 }
 .card3days-img img {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   align-items: center;
   margin: 0 auto;
 }
@@ -127,14 +128,16 @@ body {
   flex-direction: column;
 }
 .card3days-pais h5 {
-  font-size: 1.1rem;
+  font-size: .9rem;
   color: b;
   padding: 0;
+  font-weight: bolder;
 }
 .card3days-pais h6 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: gray;
   padding: 0;
+  font-weight: normal;
 }
 .card3days-temp {
   color: white;
