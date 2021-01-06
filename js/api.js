@@ -105,7 +105,7 @@ function obtenerDatosTempForecast1(apiKey, idCity) {
             let tempMaxDia1 = Math.round(datos.list[2].main.temp_max);
             let tempMinDia1 = Math.round(datos.list[2].main.temp_max);
             let icon = datos.list[2].weather[0].icon;
-            let state = datos.list[2].weather[0].main;
+            let state = datos.list[2].weather[0].description;
             document.getElementById("imgForecastDia1").src = `http://openweathermap.org/img/wn/${icon}@2x.png`
             const days = [
                 'Sunday',
@@ -145,7 +145,7 @@ function obtenerDatosTempForecast2(apiKey, idCity) {
             let tempMaxDia2 = Math.round(datos.list[2].main.temp_max);
             let tempMinDia2 = Math.round(datos.list[2].main.temp_max);
             let icon = datos.list[10].weather[0].icon;
-            let state = datos.list[10].weather[0].main;
+            let state = datos.list[10].weather[0].description;
             document.getElementById("imgForecastDia2").src = `http://openweathermap.org/img/wn/${icon}@2x.png`
             const days = [
                 'Sunday',
@@ -182,10 +182,10 @@ function obtenerDatosTempForecast3(apiKey, idCity) {
         if (this.status == 200 && this.readyState == 4) {
 
             let datos = JSON.parse(this.responseText);
-            let tempMaxDia2 = Math.round(datos.list[2].main.temp_max);
-            let tempMinDia2 = Math.round(datos.list[2].main.temp_max);
+            let tempMaxDia3 = Math.round(datos.list[2].main.temp_max);
+            let tempMinDia3 = Math.round(datos.list[2].main.temp_max);
             let icon = datos.list[18].weather[0].icon;
-            let state = datos.list[18].weather[0].main;
+            let state = datos.list[18].weather[0].description;
             document.getElementById("imgForecastDia3").src = `http://openweathermap.org/img/wn/${icon}@2x.png`
             const days = [
                 'Sunday',
@@ -207,7 +207,7 @@ function obtenerDatosTempForecast3(apiKey, idCity) {
             let mostrarDia2 = document.querySelector('#dayForecastDay32');
             mostrarDia2.textContent = `${state}`;
             let mostrarTempMaxMin = document.querySelector('#tempForecastDay3');
-            mostrarTempMaxMin.textContent = `${tempMaxDia2}° / ${tempMinDia2}°`;
+            mostrarTempMaxMin.textContent = `${tempMaxDia3}° / ${tempMinDia3}°`;
         }
     }
 };
